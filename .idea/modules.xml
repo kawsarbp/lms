@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/assect/javascripts/examples/.idea/examples.iml" filepath="$PROJECT_DIR$/assect/javascripts/examples/.idea/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lms.iml" filepath="$PROJECT_DIR$/.idea/lms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sms/.idea/sms.iml" filepath="$PROJECT_DIR$/../sms/.idea/sms.iml" />
+    </modules>
+  </component>
+</project>
