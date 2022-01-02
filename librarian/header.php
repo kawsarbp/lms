@@ -56,7 +56,7 @@ if(!isset($_SESSION['libraian_login']))
                         <span class="user-name">
                             <?php
                             $email = $_SESSION['libraian_login'];
-                            $data = mysqli_query($con,"SELECT * FROM `libraian` WHERE `email`='$email'");
+                            $data = mysqli_query($con,"SELECT * FROM `libraian` WHERE `username`='$email'");
                             $data_name = mysqli_fetch_array($data);
                             echo ucwords($data_name['fname'].' '.$data_name['lname']);
                             ?>
