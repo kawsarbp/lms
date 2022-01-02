@@ -53,7 +53,7 @@ if(!isset($_SESSION['student_login']))
                         <span class="user-name">
                             <?php
                             $email = $_SESSION['student_login'];
-                            $result = mysqli_query($con,"SELECT * FROM `students` WHERE `email`='$email'");
+                            $result = mysqli_query($con,"SELECT * FROM `students` WHERE `username`='$email'");
                             $row = mysqli_fetch_array($result);
                             echo ucwords($row['fname']. ' '.$row['lname']);
                             ?>
